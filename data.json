@@ -1,0 +1,242 @@
+[
+	{
+		"DomainName": "*.8x8.com",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.8x8.vc",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.8x8cloud.com",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.callstats.io",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.cloud8.net",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.dxi.eu",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.easycallnow.net",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.easycontactnow.com",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.jitsi.net",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.p8t.us",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.packet8.net",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.wavecell.com",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "8x8.vc",
+		"ApplicationName": "8x8 Core Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.8x8.com",
+		"ApplicationName": "8x8 Media Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.packet8.net",
+		"ApplicationName": "8x8 Media Domains",
+		"PortUsage": "*",
+		"Owner": "8x8"
+	},
+	{
+		"DomainName": "*.amplitude.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.dropbox.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.dropboxapi.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.dropboxcaptcha.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.dropboxstatic.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.dropboxusercontent.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.google.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.googleapis.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.googleusercontent.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.gstatic.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.live.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.microsoft.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.microsoftonline-p.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.microsoftonline.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.msauth.net",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.segment.io",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.youtube.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "submit.backtrace.io",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "www.google-analytics.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "www.gravatar.com",
+		"ApplicationName": "8x8 Video Meetings",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.apigee.io",
+		"ApplicationName": "API",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.cloudflare.net",
+		"ApplicationName": "DDoS mitigation, Internet security, and distributed domain-name-server services",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.okta.com",
+		"ApplicationName": "SSO via Okta",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.amazonaws.com",
+		"ApplicationName": "Storage and downloading Call Center Analytic reports via S3 Signed URLs",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	},
+	{
+		"DomainName": "*.walkme.com",
+		"ApplicationName": "Training/Configuration assistance",
+		"PortUsage": "TCP:443",
+		"Owner": "3rd Party"
+	}
+]
