@@ -1,30 +1,36 @@
 #!/usr/bin/env python3
 
-import panos
+from panos import panorama
+from panos import objects
 import argparse
 import getpass
 import json
 
-def connect(panorama):
-  username = getpass.getuser()
+def connect(panoAddress):
+  username = input('Username: ' )
   password = getpass.getpass()
-  return pano = panorama.Panorama(panorama, username, password)
+  print(panoAddress)
+  pano = panorama.Panorama(panoAddress, username, password)
+  return pano
 
-def parseDomains(data, panorama):
+def parseDomains(data, panoAddress):
   print('parse domains')
   print(data)
 
-def parseSubnets(data, panorama):
+def parseSubnets(data, panoAddress):
   print('Detected json as subnets, parsing')
-  # pano = connect(panorama)
-  # Change to Firewall
-  # fw.add(objects.AddressObject("Server", "2.2.2.2")).create()
-  # Change to Panorama
-  # pano.add(panorama.DeviceGroup("CustomerA")).create()
-  # The create() method will never remove a variable or object, only add or change it.
-  pano.add(panorama.DeviceGroup("CustomerA")).create()
-
-
+  pano = connect(panoAddress)
+  addresses = []
+  for d in data:
+    print(d['Subnet'])
+    AddressName = '8x8-' + d['Subnet'].replace('/', '-')
+    print(AddressName)
+    address_object = objects.AddressObject(AddressName, d['Subnet'])
+    pano.add(address_object).create()
+    addresses.append(address_object)
+  pano.add(objects.AddressGroup('8x8 Addresses', addresses))
+    
+    
 def main(args):
   if args.filename:
       # open the file and load as json data
